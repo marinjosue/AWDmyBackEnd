@@ -30,8 +30,4 @@ app.use('/api/roles', rolesRoutes);
 
 
 // Puerto del servidor
-const PORT = process.env.PORT || 3010;
-app.listen(PORT, () => {
-  console.log(`Servitor corridor en el puerto ${PORT}`);
-});
 
